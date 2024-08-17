@@ -21,3 +21,5 @@ function SearchSubmit(event) {
 
 let searchFormElemant = document.querySelector("#search-form");
 searchFormElemant.addEventListener("submit", SearchSubmit);
+
+searchCity("Amersfoort");
